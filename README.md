@@ -1,4 +1,4 @@
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/Cognitana-Research/NNOHD/blob/master/LICENSE)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-green.svg)](https://github.com/Cognitana-Research/NNOHD/blob/master/LICENSE)
 
 # Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data
 # Implementation Release and Additional Material
@@ -554,14 +554,16 @@ Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/n.png "n") |
 20 | 1,000 | 0.2346
 
 
-# Acknowledgements
+## Acknowledgements
 
 This repository features code and data sets from other projects. We would like to acknowledge the following contributions:
 
-## Code
+### Code
+
+* [ELKI Data Mining Toolkit](https://github.com/elki-project/elki) by 
 
 * [Somoclu](https://github.com/peterwittek/somoclu) by Peter Wittek, Shi Chao Gao, Ik Soo Lim, Li Zhao (2017). Somoclu: An Efficient Parallel Library for Self-Organizing Maps. Journal of Statistical Software, 78(9), pp.1--21. DOI:[10.18637/jss.v078.i09](https://doi.org/10.18637/jss.v078.i09). arXiv:[1305.1422](https://arxiv.org/abs/1305.1422).
 
-## Data Sets
+### Data Sets
 
-
+* 
