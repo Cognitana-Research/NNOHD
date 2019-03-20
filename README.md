@@ -2,7 +2,9 @@
 # Implementation Release and Additional Material
 
 
-Welcome to the additional material for the paper *Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data* by Daniel Popovic, Edouard Fouch\`{e}
+Welcome to the additional material for the paper *Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data* by Daniel Popovic, Edouard Fouché and Klemens Böhm, Karlsruhe Institute of Technology (KIT). This repository contains implementation releases of the three approaches *Autoencoder*, *Restricted Boltzmann Machine*, and *Self-Organising Map* for outlier detection with details to reproduce the experiments in the paper. In addition, it contains experimental results on further data sets and completes the tables, which are only partially shown in the paper for reasons of space.
+
+This repository is released under the AGPLv3 license. Please see the [LICENSE](https://github.com/Cognitana-Research/NNOHD/LICENSE) file for details.
 
 ## Quick Start
 
