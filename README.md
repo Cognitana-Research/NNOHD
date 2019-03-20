@@ -560,10 +560,15 @@ This repository features code and data sets from other projects. We would like t
 
 ### Code
 
-* [ELKI Data Mining Toolkit](https://github.com/elki-project/elki) by 
+* [ELKI Data Mining Toolkit](https://github.com/elki-project/elki) by Erich Schubert, Alexander Koos, Tobias Emrich, Andreas Züﬂe, Klaus Arthur Schmid, Arthur Zimek. A Framework for Clustering Uncertain Data. Proceedings of the VLDB Endowment, 8(12): pp.1976–1979 (2015). [VLDB](http://www.vldb.org/pvldb/vol8/p1976-schubert.pdf).
 
-* [Somoclu](https://github.com/peterwittek/somoclu) by Peter Wittek, Shi Chao Gao, Ik Soo Lim, Li Zhao (2017). Somoclu: An Efficient Parallel Library for Self-Organizing Maps. Journal of Statistical Software, 78(9), pp.1--21. DOI:[10.18637/jss.v078.i09](https://doi.org/10.18637/jss.v078.i09). arXiv:[1305.1422](https://arxiv.org/abs/1305.1422).
+* [Somoclu](https://github.com/peterwittek/somoclu) by Peter Wittek, Shi Chao Gao, Ik Soo Lim, Li Zhao. Somoclu: An Efficient Parallel Library for Self-Organizing Maps. Journal of Statistical Software, 78(9), pp.1-21 (2017). DOI:[10.18637/jss.v078.i09](https://doi.org/10.18637/jss.v078.i09). arXiv:[1305.1422](https://arxiv.org/abs/1305.1422).
 
 ### Data Sets
 
-* 
+* [DAMI](http://www.dbs.ifi.lmu.de/research/outlier-evaluation/DAMI/) by Guilherme O. Campos, Arthur Zimek, Jörg Sander, Ricardo J. G. B. Campello, Barbora Micenková, Erich Schubert, Ira Assent, Michael E. Houle (2016). On the Evaluation of Unsupervised Outlier Detection: Measures, Datasets, and an Empirical Study. Data Mining and Knowledge
+Discovery 30(4), Springer Nature, pp.891-927 (2016). DOI:[10.1007/s10618-015-0444-8](https://doi.org/10.1007/s10618-015-0444-8)
+
+* [ODDS Library](http://odds.cs.stonybrook.edu) by Shebuti Rayana. Stony Brook University, Department of Computer Sciences, Stony Brook, NY (2016).
+
+* [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml) by Dheeru Dua, Casey Graff. University of California, Irvine, School of Information and Computer Sciences (2017).
