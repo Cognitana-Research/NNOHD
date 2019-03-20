@@ -105,7 +105,7 @@ P53 | 1.04 | *1.29* | 1.20 | 1.25 | 1.06 | 1.13 | 1.06 | 1.06 | **1.30**
 
 
 ### Parameter Evaluation
-In this section 
+In this section we present the complete tables of parameter evaluation values for *Autoencoder*, *Restricted Boltzmann Machine*, and *Self-Organising Map*.
 
 
 #### Parameter Evaluation for Autoencoder (AE)
