@@ -101,7 +101,7 @@ P53 | 1.04 | *1.29* | 1.20 | 1.25 | 1.06 | 1.13 | 1.06 | 1.06 | **1.30**
 
 ##### ROC AUC and PR AUC for Arrhythmia-2
 
-![](https://github.com/DanielP77/NNOHD/blob/master/images/ROC_PR_Arrhythmia-2.png "ROC AUC and PR AUC for Arrhythmia-2")
+![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Arrhythmia-2.png "ROC AUC and PR AUC for Arrhythmia-2")
 
 
 ### Parameter Evaluation
@@ -110,7 +110,7 @@ In this section we present the complete tables of parameter evaluation values fo
 
 #### Parameter Evaluation for Autoencoder (AE)
 
-Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/epsilon.png "Epsilon") | Epochs ![](https://github.com/DanielP77/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/DanielP77/NNOHD/blob/master/images/D_epsilon_n_e.png "D_{Epsilon,n^e}")
+Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/epsilon.png "Epsilon") | Epochs ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/D_epsilon_n_e.png "D_{Epsilon,n^e}")
 ---|---|---
 0.4 | 10 | 0.
 0.4 | 20 | 0.
@@ -140,7 +140,7 @@ Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/epsilon.png 
 
 #### Parameter Evaluation for Restricted Boltzmann Machine (RBM)
 
-Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/delta.png "Delta") | Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/gamma.png "Gamma") | Epochs ![](https://github.com/DanielP77/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/DanielP77/NNOHD/blob/master/images/D_delta_gamma_n_e.png "D_{delta,gamma,n^e}")
+Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/delta.png "Delta") | Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/gamma.png "Gamma") | Epochs ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/D_delta_gamma_n_e.png "D_{delta,gamma,n^e}")
 ---|---|---|---
 0.1 | 0.1 | 10 | 0.2318
 0.1 | 0.1 | 20 | 0.2067
@@ -470,7 +470,7 @@ Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/delta.png "D
 
 #### Parameter Evaluation for Self-Organising Map (SOM)
 
-Parameter ![](https://github.com/DanielP77/NNOHD/blob/master/images/n.png "n") | Epochs ![](https://github.com/DanielP77/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/DanielP77/NNOHD/blob/master/images/D_n_n_e.png "D_{n,n^e}")
+Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n.png "n") | Epochs ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/D_n_n_e.png "D_{n,n^e}")
 ---|---|---
 1 | 10 | 0.0496
 1 | 20 | 0.0649
