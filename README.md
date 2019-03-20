@@ -1,3 +1,5 @@
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://github.com/Cognitana-Research/NNOHD/blob/master/LICENSE)
+
 # Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data
 # Implementation Release and Additional Material
 
