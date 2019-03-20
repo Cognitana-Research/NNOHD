@@ -2,6 +2,8 @@
 # Implementation Release and Additional Material
 
 
+Welcome to the additional material for the paper *Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data* by Daniel Popovi\'{c}, Edouard Fouch'{e}
+
 ## Quick Start
 
 ## Implementation Release
