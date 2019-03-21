@@ -12,7 +12,10 @@ This repository is released under the AGPLv3 license. Please see the [LICENSE](h
 
 ### Prerequisites
 
-Download this repository to your local machine. 
+Download this repository to your local machine. It is recommended to use virtual environment to manage Python dependencies.
+```bash
+$ pip3 install -r requirements.txt
+```
 
 ## Implementation Release
 
