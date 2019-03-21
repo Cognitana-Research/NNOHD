@@ -10,8 +10,50 @@ This repository is released under the AGPLv3 license. Please see the [LICENSE](h
 
 ## Quick Start
 
+### Prerequisites
+
+Download this repository to your local machine. 
+
 ## Implementation Release
 
+### Project Structure
+
+#### Root Folder
+
+Folders:
+
+* `nnohd`: The implementation of the unsupervised neural networks for outlier detection.
+* `images`: Contains images for this README.
+* `datasets`: The data sets used for evaluation.
+
+Files:
+
+* `README.md`
+* `LICENSE`: The license file. This repository is published under GNU AFFERO GENERAL PUBLIC LICENSE Version 3.
+* `requirements.txt`: Refers to `app/requirements.txt`.
+
+#### Application Structure
+
+```
+nnohd/
+├── requirements.txt
+├── ae.py
+├── rbm.py
+├── som.py
+├── utils
+│   └── preprocessing.py
+
+### Dependencies
+
+* [**Python**](https://www.python.org/) 3.6+
+* [**Keras**](https://pypi.org/project/Keras/2.2.4/) 2.2.4
+* [**Matplotlib**](https://pypi.org/project/matplotlib/2.2.2/) 2.2.2
+* [**NumPy**](https://pypi.org/project/numpy/1.16.2/) 1.16.2
+* [**Pandas**](https://pandas.pydata.org/) 0.24.2
+* [**Scikit-learn**](https://pypi.org/project/scikit-learn/0.20.3/) 0.20.3
+* [**SciPy**](https://pypi.org/project/scipy/1.2.1/) 1.2.1
+* [**Somoclu**](https://pypi.org/project/somoclu/1.7.5/) 1.7.5
+* [**Tensorflow**](https://pypi.org/project/tensorflow/1.13.1/) 1.13.1
 
 ## Additional Material
 This section contains the complete data for the sections of the paper that are only partially filled due to space limitations.
