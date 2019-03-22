@@ -7,15 +7,16 @@ Created on Tue Mar 14 18:07:32 2017
 """
 
 import matplotlib.pyplot as plt
-from mpl_toolkits.mplot3d import Axes3D
-import matplotlib.gridspec as gridspec
 import matplotlib.colors
-from sklearn.metrics import roc_curve, auc, precision_recall_curve
+import matplotlib.gridspec as gridspec
+from mpl_toolkits.mplot3d import Axes3D
 from keras.layers import Input, Dense
 from keras.models import Model
 from keras import backend as k
 import numpy as np
 import scipy.spatial.distance as spdist
+from sklearn.metrics import roc_curve, auc, precision_recall_curve
+
 from utils.preprocessing import Preprocessor
 
 
