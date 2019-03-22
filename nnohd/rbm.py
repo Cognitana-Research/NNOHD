@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Mar 14 18:07:32 2017
+
+@author: Daniel Popovic
+"""
 import tensorflow as tf
 import numpy as np
 import os
