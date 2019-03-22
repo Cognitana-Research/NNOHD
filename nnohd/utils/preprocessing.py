@@ -1,15 +1,16 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 Created on Sat Mar 25 18:33:23 2017
 
-@author: DP
+@author: Daniel Popovic
 """
 
-from scipy.io import arff, loadmat
-#import csv
-from sklearn import preprocessing
-import pandas as pd
 import numpy as np
+import pandas as pd
+from scipy.io import arff, loadmat
+from sklearn import preprocessing
+
 
 class Preprocessor(object):
     """
