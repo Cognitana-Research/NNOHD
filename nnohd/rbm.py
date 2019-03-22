@@ -5,14 +5,16 @@ Created on Tue Mar 14 18:07:32 2017
 
 @author: Daniel Popovic
 """
-import tensorflow as tf
-import numpy as np
+
 import os
 import matplotlib.pyplot as plt
+import numpy as np
+import tensorflow as tf
 from sklearn.metrics import roc_curve, auc, precision_recall_curve, log_loss
 
 from utils.preprocessing import Preprocessor
 import utils.rbm_utils as utils
+
 
 class RBM(object):
     """ 
