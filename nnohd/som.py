@@ -1,5 +1,5 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
-
 """
 Created on Thu Apr 30 06:34:43 2017
 
@@ -8,15 +8,17 @@ Created on Thu Apr 30 06:34:43 2017
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-import matplotlib.gridspec as gridspec
 import matplotlib.colors
+import matplotlib.gridspec as gridspec
 from mpl_toolkits.mplot3d import Axes3D
 import numpy as np
-import somoclu
-from utils.preprocessing import Preprocessor
+import scipy.spatial.distance as spdist
 from sklearn.metrics import roc_curve, auc, precision_recall_curve, log_loss
 from sklearn import preprocessing as skpre
-import scipy.spatial.distance as spdist
+import somoclu
+
+from utils.preprocessing import Preprocessor
+
 
 class SOM():
     """
