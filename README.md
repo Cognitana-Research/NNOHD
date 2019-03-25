@@ -16,6 +16,7 @@ Download this repository to your local machine. It is recommended to use virtual
 ```bash
 $ pip3 install -r requirements.txt
 ```
+To re-enact the experiments, download the data sets as ZIP files at [Datasets Download](https://www.dropbox.com/sh/8ewsyor0bjrllzc/AADTWWD-FBgxKaNXR-sZfd0ua?dl=0) and unpack them.
 
 ## Implementation Release
 
@@ -62,7 +63,7 @@ nnohd/
 This section contains the complete data for the sections of the paper that are only partially filled due to space limitations.
 
 ### Evaluated Data Sets
-In this section we list the complete set of evaluated data sets.
+In this section we list the complete set of evaluated data sets. The evaluated high-dimensional data sets can be found as ZIP files at [Datasets Download](https://www.dropbox.com/sh/8ewsyor0bjrllzc/AADTWWD-FBgxKaNXR-sZfd0ua?dl=0).
 
 Data Set | Dimensions | Data Objects | Outliers | Outlier Ratio
 --- | --- | --- | --- | ---
