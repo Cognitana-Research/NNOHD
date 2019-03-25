@@ -21,8 +21,8 @@ To re-enact the experiments, download the data sets as ZIP files at [Datasets Do
 ### Run the outlier detector
 
 The outlier detector runs in four different modes, using either Autoencoder, Restricted Boltzmann Machine, or Self-Organising Map alone, or run all three methods together. The detector supports two globally used optional parameters:
-* `w`: Writes the outlier detection results into CSV files. For each outlier detection method, a separate file is saved. The files contain an incremented data object ID, the real outlier label provided in the data set, and the method's respective outlier score.
-* `d`: The column delimiter for data sets in CSV format. The default delimiter is `;`.
+* `-w`: Writes the outlier detection results into CSV files. For each outlier detection method, a separate file is saved. The files contain an incremented data object ID, the real outlier label provided in the data set, and the method's respective outlier score.
+* `-d`: The column delimiter for data sets in CSV format. The default delimiter is `;`.
 
 #### Autoencoder
 
