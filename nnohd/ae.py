@@ -124,7 +124,6 @@ class Autoencoder():
         """
         Constructor for Autoencoder class.
         """
-        print(k.tensorflow_backend._get_available_gpus())
         self.filename = filename
         self.filepath = filepath
         file = "{}/{}".format(filepath,filename)
