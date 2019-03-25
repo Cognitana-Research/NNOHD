@@ -18,6 +18,54 @@ $ pip3 install -r requirements.txt
 ```
 To re-enact the experiments, download the data sets as ZIP files at [Datasets Download](https://www.dropbox.com/sh/8ewsyor0bjrllzc/AADTWWD-FBgxKaNXR-sZfd0ua?dl=0) and unpack them.
 
+### Run the outlier detector
+
+The outlier detector runs in four different modes, using either Autoencoder, Restricted Boltzmann Machine, or Self-Organising Map alone, or run all three methods together. The detector supports two globally used optional parameters:
+* `w`: Writes the outlier detection results into CSV files. For each outlier detection method, a separate file is saved. The files contain an incremented data object ID, the real outlier label provided in the data set, and the method's respective outlier score.
+* `d`: The column delimiter for data sets in CSV format. The default delimiter is `;`.
+
+#### Autoencoder
+
+To run the Autoencoder alone, use the command line positional parameter *ae* to specify the method, and as the second positional parameter, the path and file name of the data set.
+```bash
+$ python detector.py ae mypath/mydataset.arff
+```
+For the Autoencoder, the following optional parameters exist:
+* `-a`: The number of training epochs. Default is 20.
+* `-e`: The encoding factor. Default is 0.8.
+
+#### Restricted Boltzmann Machine
+
+To run the Restricted Boltzmann Machine alone, use the positional parameter *rbm* to specify the method, and the data set path and file name as a second positional parameter.
+```bash
+$ python detector.py rbm mypath/mydataset.arff
+```
+For the Restricted Boltzmann Machine, the following optional parameters exist:
+* `-r`: The number of training epochs. Default is 100.
+* `-n`: The proportion of hidden neurons. Default is 0.8.
+
+#### Self-Organising Map
+
+To run the Self-Organising Map alone, use the positional parameter *som* to specify the method, and the data set path and file name as a second positional parameter.
+```bash
+$ python detector.py som mypath/mydataset.arff
+```
+For the Self-Organising Map, the following optional parameters exist:
+* `-s`: The number of training epochs. Default is 100.
+* `-g`: The grid size or the number of neuron rows and columns in the quadratic SOM grid. Default is 2.
+
+#### All methods at once
+
+To run all three methods at once, use the positional parameter *all* to specify all three methods, and the data set path and file name as the second positional parameter.
+```bash
+$ python detector.py all mypath/mydataset.arff
+```
+Each optional parameter that exists for one of the three methods (see above) is also valid to use with all three methods at once. If an optional parameter is not specified, the default value is used.
+
+### Data set structure
+
+The outlier detector supports three file types for data sets: ARFF files (`.arff`), CSV files (`.csv`), and MATLAB files < version 7.3 (`.mat`).
+
 ## Implementation Release
 
 ### Project Structure
