@@ -69,7 +69,7 @@ parser.add_argument('-n',
                     default=0.8, 
                     help='The share of hidden neurons for the Restricted \
                     Boltzmann Machine. Allowed values between 0.0 and 1.0. \
-                    Default is 0.9')
+                    Default is 0.8')
 parser.add_argument('-s', 
                     '--somepochs', 
                     type=int, 
