@@ -6,6 +6,7 @@ Created on Thu Apr 30 06:34:43 2017
 @author: Daniel Popovic
 """
 
+import os
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import matplotlib.colors
@@ -90,7 +91,7 @@ class SOM():
         """
         self.filename = filename
         self.filepath = filepath
-        file = "{}/{}".format(filepath,filename)
+        file = os.path.join(filepath,filename)
         self.epochs = epochs
         self.rows, self.columns = rows, columns
         self.maptype = maptype
