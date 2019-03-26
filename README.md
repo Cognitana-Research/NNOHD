@@ -118,6 +118,8 @@ This section contains the complete data for the sections of the paper that are o
 ### Evaluated Data Sets
 In this section we list the complete set of evaluated data sets. The evaluated high-dimensional data sets can be found as ZIP files at [Datasets Download](https://www.dropbox.com/sh/8ewsyor0bjrllzc/AADTWWD-FBgxKaNXR-sZfd0ua?dl=0).
 
+<details><summary>Show Table</summary>
+<p>
 Data Set | Dimensions | Data Objects | Outliers | Outlier Ratio
 --- | --- | --- | --- | ---
 Arrhythmia-2 | 259 | 248 | 4 | 1.61%
@@ -146,7 +148,7 @@ Seismic | 11 | 2,584 | 170 | 6.58%
 Thyroid | 6 | 3,772 | 2.4%
 Waveform | 21 | 3,509 | 166 | 4.73%
 Yeast | 8 | 1,364 | 65 | 4.77%
-
+</p></details>
 
 ### Dataset Evaluation
 
