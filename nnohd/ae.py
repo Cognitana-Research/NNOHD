@@ -6,6 +6,7 @@ Created on Tue Mar 14 18:07:32 2017
 @author: Daniel Popovic
 """
 
+import os
 import matplotlib.pyplot as plt
 import matplotlib.colors
 import matplotlib.gridspec as gridspec
@@ -126,7 +127,7 @@ class Autoencoder():
         """
         self.filename = filename
         self.filepath = filepath
-        file = "{}/{}".format(filepath,filename)
+        file = os.path.join(filepath,filename)
         self.epochs = epochs
         self.encoding_factor = encoding_factor
         self.error = error
