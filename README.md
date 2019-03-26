@@ -120,6 +120,7 @@ In this section we list the complete set of evaluated data sets. The evaluated h
 
 <details><summary>Show Table</summary>
 <p>
+  
 Data Set | Dimensions | Data Objects | Outliers | Outlier Ratio
 --- | --- | --- | --- | ---
 Arrhythmia-2 | 259 | 248 | 4 | 1.61%
@@ -148,11 +149,15 @@ Seismic | 11 | 2,584 | 170 | 6.58%
 Thyroid | 6 | 3,772 | 2.4%
 Waveform | 21 | 3,509 | 166 | 4.73%
 Yeast | 8 | 1,364 | 65 | 4.77%
+
 </p></details>
 
 ### Dataset Evaluation
 
 #### ROC AUC for High Dimensional Data Sets
+
+<details><summary>Show Table</summary>
+<p>
 
 Data Set | AE | SOM | RBM | HiCS | LOF | FastABOD | LoOP | OC-SVM | KNN
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
@@ -174,8 +179,12 @@ MNIST | **82.06** | 81.07 | 49.87 | 51.74 | 80.34 | 54.35 | 71.66 | 76.46 | 72.7
 Musk | **100.00** | **100.00** | 95.60 | *99.60* | 84.00 | 5.11 | 51.86 | 67.60 | 7.11
 P53 | 60.63 | **67.17** | 64.76 | 62.09 | 61.99 | 62.92 | 61.99 | 61.27 | 62.56
 
+</p></details>
 
 #### PR AUC for High Dimensional Data Sets
+
+<details><summary>Show Table</summary>
+<p>
 
 Data Set | AE | SOM | RBM | HiCS | LOF | FastABOD | LoOP | OC-SVM | KNN
 --- | --- | --- | --- | --- | --- | --- | --- | --- | --- 
@@ -197,6 +206,7 @@ MNIST | 30.13 | 27.40 | 9.26 | 9.99 | **33.95** | 14.05 | 24.74 | 25.49 | 27.96
 Musk | **100.00** | **100.00** | 85.58 | 97.46 | 14.68 | 1.65 | 3.71 | 4.54 | 1.91
 P53 | 1.04 | *1.29* | 1.20 | 1.25 | 1.06 | 1.13 | 1.06 | 1.06 | **1.30**
 
+</p></details>
 
 #### Visualization
 
@@ -275,6 +285,9 @@ In this section we present the complete tables of parameter evaluation values fo
 
 #### Parameter Evaluation for Autoencoder (AE)
 
+<details><summary>Show Table</summary>
+<p>
+
 Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/epsilon.png "Epsilon") | Epochs ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/D_epsilon_n_e.png "D_{Epsilon,n^e}")
 ---|---|---
 0.4 | 10 | 0.
@@ -302,8 +315,12 @@ Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/eps
 0.9 | 100 | 0.0539
 0.9 | 1,000 | 0.0828
 
+</p></details>
 
 #### Parameter Evaluation for Restricted Boltzmann Machine (RBM)
+
+<details><summary>Show Table</summary>
+<p>
 
 Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/delta.png "Delta") | Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/gamma.png "Gamma") | Epochs ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/D_delta_gamma_n_e.png "D_{delta,gamma,n^e}")
 ---|---|---|---
@@ -632,8 +649,12 @@ Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/del
 0.9 | 0.9 | 100 | 0.0765
 0.9 | 0.9 | 1,000 | 0.0800
 
+</p></details>
 
 #### Parameter Evaluation for Self-Organising Map (SOM)
+
+<details><summary>Show Table</summary>
+<p>
 
 Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n.png "n") | Epochs ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n_e.png "n^e") | ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/D_n_n_e.png "D_{n,n^e}")
 ---|---|---
@@ -718,6 +739,7 @@ Parameter ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/n.p
 20 | 100 | 0.2348
 20 | 1,000 | 0.2346
 
+</p></details>
 
 ## Acknowledgements
 
