@@ -108,7 +108,7 @@ class RBM(object):
         """
         self.filename = filename
         self.filepath = filepath
-        file = "{}/{}".format(filepath,filename)
+        file = os.path.join(filepath,filename)
         input_data = Preprocessor(file, 
                                   delimiter=delimiter, 
                                   with_header=with_header)
