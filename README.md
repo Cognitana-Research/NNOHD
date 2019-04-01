@@ -65,10 +65,64 @@ Each optional parameter that exists for one of the three methods (see above) is 
 The outlier detector supports three file types for data sets: ARFF files (`.arff`), CSV files (`.csv`), and *MATLAB* files < version 7.3 (`.mat`).
 
 #### ARFF Files
+ARFF files are expected to have a number of feature attribute definitions and a label attribute definition at the end, which can either be the attribute 'class' with possible values ```{0,1}``` or the attribute 'outlier' with possible values ```{'no','yes'}```
+
+Example (with 'class' attribute):
+```
+@RELATION musk
+
+@ATTRIBUTE 'att1' real
+...
+@ATTRIBUTE 'att166' real
+@ATTRIBUTE 'class' {0,1} 
+
+@DATA
+46.,-108.,60.,...,-50.,-112.,96.,1
+...
+43.,64.,41.,...,-69.,-270.,-6.,0
+```
+
+Example (with 'outlier' attribute):
+```
+@RELATION musk
+
+@ATTRIBUTE 'att1' real
+...
+@ATTRIBUTE 'att166' real
+@ATTRIBUTE 'outlier' {'no','yes'} 
+
+@DATA
+46.,-108.,60.,...,-50.,-112.,96.,'yes'
+...
+43.,64.,41.,...,-69.,-270.,-6.,'no'
+```
 
 #### CSV Files
+CSV files are expected to consist of of character-separated rows of features, with the label as the row's last value, and without a header row. The default column delimiter is `;`, but any other reasonable delimiter can be used as passed as parameter `delimiter` to the detector.
+Example:
+```
+46.;-108.;60.;...;-50.;-112.;96.;1.
+...
+43.;64.;41.;...;-69.;-270.;-6.;0.
+```
 
 #### MATLAB Files
+*MATLAB* .mat files (< version 7.3) are expected to have the following structure:
+* _X_: Feature matrix
+* _y_: Label vector
+
+Example (.mat file loaded with scipy.io.loadmat):
+```
+{'__header__': b'MATLAB 5.0 MAT-file, written by Octave 3.8.0, 2015-07-05 13:16:13 UTC',
+ '__version__': '1.0',
+ '__globals__': [],
+ 'X': array([[  46., -108.,  -60., ...,  -50., -112.,   96.],
+        ...,
+        [  43.,   64.,   41., ...,  -69., -270.,   -6.]]),
+ 'y': array([[1.],
+        ...,
+        [0.]])}
+```
 
 ## Implementation Release
 
