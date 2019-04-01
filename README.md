@@ -268,7 +268,9 @@ P53 | 1.04 | *1.29* | 1.20 | 1.25 | 1.06 | 1.13 | 1.06 | 1.06 | **1.30**
 
 <details><summary>Show Plot</summary>
 <p>
+ 
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Arrhythmia-2.png "ROC AUC and PR AUC for Arrhythmia-2")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for Arrhythmia-5
