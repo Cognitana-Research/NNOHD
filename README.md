@@ -65,9 +65,9 @@ Each optional parameter that exists for one of the three methods (see above) is 
 The outlier detector supports three file types for data sets: ARFF files (`.arff`), CSV files (`.csv`), and *MATLAB* files < version 7.3 (`.mat`).
 
 #### ARFF Files
-ARFF files are expected to have a number of feature attribute definitions and a label attribute definition at the end, which can either be the attribute 'class' with possible values ```{0,1}``` or the attribute 'outlier' with possible values ```{'no','yes'}```
+ARFF files are expected to have a number of feature attribute definitions and a label attribute definition at the end, which can either be the attribute ```'class'``` with possible values ```{0,1}``` or the attribute ```'outlier'``` with possible values ```{'no','yes'}```
 
-Example (with 'class' attribute):
+Example (with ```'class'``` attribute):
 ```
 @RELATION musk
 
@@ -82,7 +82,7 @@ Example (with 'class' attribute):
 43.,64.,41.,...,-69.,-270.,-6.,0
 ```
 
-Example (with 'outlier' attribute):
+Example (with ```'outlier'``` attribute):
 ```
 @RELATION musk
 
