@@ -277,112 +277,145 @@ P53 | 1.04 | *1.29* | 1.20 | 1.25 | 1.06 | 1.13 | 1.06 | 1.06 | **1.30**
 
 <details><summary>Show Plot</summary>
 <p>
+ 
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Arrhythmia-5.png "ROC AUC and PR AUC for Arrhythmia-5")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for Arrhythmia-10
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Arrhythmia-10.png "ROC AUC and PR AUC for Arrhythmia-10")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for Arrhythmia-20
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Arrhythmia-20.png "ROC AUC and PR AUC for Arrhythmia-20")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for Arrhythmia-46
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Arrhythmia-46.png "ROC AUC and PR AUC for Arrhythmia-46")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for InternetAds-2
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_InternetAds-2.png "ROC AUC and PR AUC for InternetAds-2")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for InternetAds-5
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_InternetAds-5.png "ROC AUC and PR AUC for InternetAds-5")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for InternetAds-10
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_InternetAds-10.png "ROC AUC and PR AUC for InternetAds-10")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for InternetAds-19
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_InternetAds-19.png "ROC AUC and PR AUC for InternetAds-19")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for ISOLET-2
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_ISOLET-2.png "ROC AUC and PR AUC for ISOLET-2")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for ISOLET-4
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_ISOLET-4.png "ROC AUC and PR AUC for ISOLET-4")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for ISOLET-8
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_ISOLET-8.png "ROC AUC and PR AUC for ISOLET-8")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for ISOLET-14
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_ISOLET-14.png "ROC AUC and PR AUC for ISOLET-14")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for ISOLET-20
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_ISOLET-20.png "ROC AUC and PR AUC for ISOLET-20")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for MNIST
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_MNIST.png "ROC AUC and PR AUC for MNIST")
+
 </p></details>
 
 ##### ROC AUC and PR AUC for Musk
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_Musk.png "ROC AUC and PR AUC for Musk")
+
+</p></details>
 
 ##### ROC AUC and PR AUC for P53
 
 <details><summary>Show Plot</summary>
 <p>
+
 ![](https://github.com/Cognitana-Research/NNOHD/blob/master/images/ROC_PR_P53.png "ROC AUC and PR AUC for P53")
- </p></details>
+
+</p></details>
 
 ### Parameter Evaluation
 In this section we present the complete tables of parameter evaluation values for *Autoencoder*, *Restricted Boltzmann Machine*, and *Self-Organising Map*.
