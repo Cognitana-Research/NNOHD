@@ -1,12 +1,29 @@
 [![License AGPL-3.0](https://img.shields.io/badge/License-AGPL--3-brightgreen.svg)](https://github.com/Cognitana-Research/NNOHD/blob/master/LICENSE)
 
 # Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data
-# Implementation Release and Additional Material
+# Supplementary Material
 
 
-Welcome to the additional material for the paper *Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data* by Daniel Popovic, Edouard Fouché and Klemens Böhm, Karlsruhe Institute of Technology (KIT). This repository contains implementation releases of the three approaches *Autoencoder*, *Restricted Boltzmann Machine*, and *Self-Organising Map* for outlier detection with details to reproduce the experiments in the paper. In addition, it contains experimental results on further data sets and completes the tables, which are only partially shown in the paper for reasons of space.
+Welcome to the supplementary material for the paper:
+- Daniel Popovic, Edouard Fouché and Klemens Böhm. 2019. Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data. In 23rd European Conference on Advances in Databases and Information Systems (ADBIS' 19), September 8-11, 2019, Bled, Slovenia. Springer International Publishing. https://doi.org/10.1007/978-3-030-28730-6_1
+
+This repository contains the reference implementation of the three approaches *Autoencoder*, *Restricted Boltzmann Machine*, and *Self-Organising Map* for outlier detection with details to reproduce the experiments in the paper. In addition, it contains all our experimental results, which are only partially shown in the paper due to space restrictions.
 
 This repository is released under the AGPLv3 license. Please see the [LICENSE](https://github.com/Cognitana-Research/NNOHD/blob/master/LICENSE) file for details.
+
+If you use this repository, please cite our paper: 
+```
+@InProceedings{10.1007/978-3-030-28730-6_1,
+author="Popovic, Daniel and Fouch{\'e}, Edouard and B{\"o}hm, Klemens",
+title="Unsupervised Artificial Neural Networks for Outlier Detection in High-Dimensional Data",
+booktitle="Advances in Databases and Information Systems",
+year="2019",
+publisher="Springer International Publishing",
+pages="3--19",
+isbn="978-3-030-28730-6",
+doi="10.1007/978-3-030-28730-6_1"
+}
+```
 
 ## Quick Start
 
